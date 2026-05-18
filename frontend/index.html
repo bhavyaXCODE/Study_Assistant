@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ai-study-assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>📘 AI Study Assistant</h1>
+
+    <textarea id="inputText" placeholder="Paste your notes or ask a question..."></textarea>
+
+    <div class="btn-group">
+      <button class="btn summarize" onclick="summarize()">Summarize</button>
+      <button class="btn ask" onclick="ask()">Ask</button>
+      <button class="btn quiz" onclick="quiz()">Quiz</button>
+    </div>
+
+    <pre id="output">Your result will appear here...</pre>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
